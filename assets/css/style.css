@@ -1,0 +1,62 @@
+.image-head {
+	background: url(../images/psychic.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	width: 100%;
+	min-height: 100vh;
+	margin:0;
+	padding: 0;
+
+}
+body {
+	margin: 0;
+}
+
+
+
+.ayy {
+	min-height: calc(100vh - 70px);
+}
+
+h1,
+.gameArea {
+	margin-top: 10px;
+}
+
+
+h1,
+.whichLetter,
+.gameArea {
+	color: white;
+	text-align: center;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 60px;
+	
+	float: left;
+	width: 100%;
+}
+
+.whichLetter {
+	
+	width: 100%;
+	font-size: 50px;
+	margin: auto;
+}
+
+.midFloat {
+	width: 960px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gameArea {
+	text-align: left;
+	font-size: 40px;
+}
+
+#guessesInPlay {
+	text-align: center;
+}
